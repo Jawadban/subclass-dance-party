@@ -24,12 +24,24 @@ $(document).ready(function() {
 
     // var dancer = dancerMakerFunction(
     var dancer = new makeBlinkyDancer(
-      $("body").height() * Math.random(),
-      $("body").width() * Math.random(),
+      $('body').height() * Math.random(),
+      $('body').width() * Math.random(),
       Math.random() * 1000
     );
-   
+    
+    // instanciate second dancer
+    // by passing same top, left arguments, but different step length
+
+    // var dancer2 = new makeBlinkyDancer(
+    //   $("body").height() * Math.random(),
+    //   $("body").width() * Math.random(),
+    //   //Math.random() * 1000
+    //   2000
+    // );
+
     $('body').append(dancer.$node);
+
+    // $('body').append(dancer2.$node);
   });
 });
 
