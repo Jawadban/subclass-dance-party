@@ -30,7 +30,7 @@ var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
 
 };
 
-makeBlinkyDancer.prototype = Object.create(makeBlinkyDancer.prototype);
+makeBlinkyDancer.prototype = Object.create(makeDancer.prototype);
 makeBlinkyDancer.prototype.constructor = makeBlinkyDancer;
 
 makeBlinkyDancer.prototype.step = function() {
@@ -41,3 +41,6 @@ makeBlinkyDancer.prototype.step = function() {
   // other effects you can use on a jQuery-wrapped html tag.
   this.$node.toggle();
 };
+
+//===================================
+
