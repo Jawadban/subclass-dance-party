@@ -45,10 +45,7 @@ var makeDancer = function(top, left, timeBetweenSteps) {
   this.step();
 };
 makeDancer.prototype.step = function () {
-  /*var dancer = this;
-  setTimeout(function () {
-    dancer.step();
-  }, this.timeBetweenSteps);*/
+
   setTimeout(this.step.bind(this), this.timeBetweenSteps);
 };
 
