@@ -26,7 +26,7 @@ var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
   // so we must keep a copy of the old version of this function
   makeDancer.call(this, top, left, timeBetweenSteps);
   this.$node = $('<span class="dancer"></span>');
-  this.$node = $('<img src="http://files.gamebanana.com/img/ico/sprays/56a242694346b.gif" alt="This will display an animated GIF" />');
+  //this.$node = $('<img src="http://files.gamebanana.com/img/ico/sprays/56a242694346b.gif" alt="This will display an animated GIF" />');
   this.setPosition(top, left);
 };
 makeBlinkyDancer.prototype = Object.create(makeDancer.prototype);
