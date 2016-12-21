@@ -3,7 +3,7 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-image: url(http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2014/12/MCQ_IA_1841-1088x816-767698963778.jpg);
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -21,13 +21,15 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px ;
+  border:10px;
+  content:url("https://media2.giphy.com/media/CjNg65bJxVgwo/200.gif#6");
   border-radius:10px;
   position:absolute;
 }
 
-/*.dancer2{
-  border:10px solid yellow;
+.dancer2{
+  border:10px;
+  content:url("http://files.gamebanana.com/img/ico/sprays/56a242694346b.gif");
   border-radius:10px;
   position:absolute;
-}*/
+}
